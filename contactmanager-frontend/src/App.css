@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+h3,h1{
+  color: blue;
+  text-align: center;
+}
+.contact-list{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: cadetblue;
+}
+
+.contact-card{
+  background-color: coral;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
+
+}
+

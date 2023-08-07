@@ -1,8 +1,9 @@
-
+import './App.css';
 import React, { useState, useEffect } from 'react';
 import ContactList from './components/ContactList';
 import AddContactForm from './components/AddContactForm';
 import axios from 'axios'; 
+import ContactCard from './components/ContactCard';
 
 const App = () => {
   const [contacts, setContacts] = useState([]);
@@ -33,8 +34,10 @@ const App = () => {
   return (
     <div className="app">
       <h1>Contact Manager</h1>
+      
       <ContactList contacts={contacts} />
       <AddContactForm onAddContact={addContact} />
+      
     </div>
   );
 };
