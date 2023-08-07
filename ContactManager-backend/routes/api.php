@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/contacts' , [ContactController::class , 'getcontact']);
-Route::post('/contacts' , [ContactController::class , 'storecontact']);
+Route::post('/contact' , [ContactController::class , 'storecontact']);
